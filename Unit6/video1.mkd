@@ -34,7 +34,7 @@ The exact steps will depend on your environment setup, but a common case is:
 
 At a Python prompt, execute:
 
-<pre>BeautifulSoup(content, "lxml")/pre>
+<pre>BeautifulSoup(content, "lxml")</pre>
 
 If that runs without error, you have installed <code>lxml</code>!
 ---
