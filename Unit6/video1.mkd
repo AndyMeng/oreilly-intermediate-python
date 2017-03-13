@@ -1,0 +1,41 @@
+# Files for Unit 5
+
+Please complete the following steps to set up some projects dependencies for this Unit.
+
+## 1. Install bs4
+
+Follow the instructions for your platform at http:https://www.crummy.com/software/BeautifulSoup/bs4/doc/.
+
+The exact steps will depend on your environment setup, but a common case is:
+
+* Windows: run <code>pip3 install bs4</code> at a terminal prompt
+* OSX: run <code>pip3 install bs4</code> at a terminal prompt
+* Linux: install <code>python-bs4</code> through your package manager
+
+## 2. Test your bs4 installation
+
+At a Python prompt, execute:
+
+<pre>from bs4 import BeautifulSoup</pre>
+
+If that runs without error, you have installed <code>bs4</code>!
+
+## 3. Install lxml
+
+Follow the instructions for your platform at http://lxml.de/installation.html.
+
+The exact steps will depend on your environment setup, but a common case is:
+
+* Windows: run <code>pip3 install lxml</code> at a terminal prompt
+* OSX: run <code>pip3 install lxml</code> at a terminal prompt
+* Linux: install <code>python-lxml</code> through your package manager
+
+## 4. Test your lxml installation
+
+At a Python prompt, execute:
+
+<pre>BeautifulSoup(content, "lxml")/pre>
+
+If that runs without error, you have installed <code>lxml</code>!
+---
+
