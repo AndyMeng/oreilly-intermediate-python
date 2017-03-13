@@ -48,8 +48,13 @@ import string
 # if longest != "":
 #     print("Longest Palindrome is '" + longest + "'")
 
-longest = ""
-for word in scrabble.wordlist:
-    if word == word[::-1] and len(word) > len(longest):
-            longest = word
-print(longest)
+
+# longest = ""
+# for word in scrabble.wordlist:
+#     if word == word[::-1] and len(word) > len(longest):
+#             longest = word
+# print(longest)
+
+## Using List comprehension
+words = [word for word in scrabble.wordlist if word == word[::-1]]
+print(words)
